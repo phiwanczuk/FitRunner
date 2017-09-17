@@ -1,3 +1,8 @@
+body{
+    background: url('images/burger-wallpaper.jpg') no-repeat;
+    background-size:cover;
+}
+
 #moving-bg{
     width: 700px;
     height: 600px;
