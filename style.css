@@ -1,0 +1,19 @@
+#moving-bg{
+    width: 700px;
+    height: 600px;
+    background: url('images/full-background.png') no-repeat;
+    background-position: 0 0;
+    border: solid black;
+    margin-left: 19%;
+
+    animation: animatedBackground 5s linear infinite;
+}
+
+@keyframes animatedBackground {
+    from{
+        background-position: 0 0;
+    }
+    to{ background-position: 100% 0;
+    }
+}
+
