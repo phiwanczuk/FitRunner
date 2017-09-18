@@ -24,3 +24,10 @@ body{
     }
 }
 
+@media only screen and (max-width: 1300px){
+    #moving-bg{
+        height: 600px;
+        width: 500px;
+        border: white;
+
+}
