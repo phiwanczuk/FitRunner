@@ -4,12 +4,14 @@ body{
 }
 
 #moving-bg{
-    width: 700px;
-    height: 600px;
-    background: url('images/full-background.png') no-repeat;
+    height: 800px;
+    width: 1200px;
+    background: url('images/full-background.jpg') no-repeat;
     background-position: 0 0;
+    background-size: cover;
     border: solid black;
-    margin-left: 19%;
+    margin-left: 18%;
+
 
     animation: animatedBackground 5s linear infinite;
 }
